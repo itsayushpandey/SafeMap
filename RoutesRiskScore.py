@@ -13,7 +13,7 @@ lat_step = (max_latitude - min_latitude) / num_divisions
 lon_step = (max_longitude - min_longitude) / num_divisions
 
 
-class GetRoutesRiskScore(Resource):
+class RoutesRiskScore(Resource):
 
     def __init__(self, spark_session):
         self.spark = spark_session
